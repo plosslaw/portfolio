@@ -38,7 +38,7 @@ function showEmail() {
 	var dummy = document.createElement("textarea");
 	dummy.style.display = 'hidden';
 	document.body.appendChild(dummy);
-	dummy.value = "spacequartz@gmail.com";
+	dummy.value = "redcatking@protonmail.com";
 	dummy.select();
 	document.execCommand("copy");
 	document.body.removeChild(dummy);
