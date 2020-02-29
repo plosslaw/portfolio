@@ -2907,7 +2907,8 @@ input, select, textarea {
 	}
 
 		.main.style1 {
-			background: #fff;
+			/* background: #fff; */
+			background: rgb(231, 231, 231);
 		}
 
 		.main.style2 {
