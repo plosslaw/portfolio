@@ -189,6 +189,13 @@
 
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
 readers do not read off random characters that represent icons */
+.fa-cpp:before{
+  content: "\e901";
+}
+.fa-codeforces:before{
+  content: "\e900";
+}
+
 .fa-500px:before {
   content: "\f26e"; }
 

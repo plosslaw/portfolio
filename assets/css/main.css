@@ -3606,3 +3606,15 @@ input, select, textarea {
 			}
 
 	}
+
+
+.list-items{
+	border: 1px solid red;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+	border-radius: 2rem;
+	font-size: 1rem;
+	color:grey;
+	/* prevents weird separation inside tag */
+	white-space: nowrap;
+}
