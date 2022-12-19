@@ -40,14 +40,12 @@ function showEmail() {
 	var dummy = document.createElement("textarea");
 	dummy.style.display = 'hidden';
 	document.body.appendChild(dummy);
-	dummy.value = "redcatking@protonmail.com";
+	dummy.value = "plosslaw@gmail.com";
 	dummy.select();
 	document.execCommand("copy");
 	document.body.removeChild(dummy);
 	toggleOn().then(setTimeout(hideEmail,3100));
-
-	
-  }
+}
 
 //   function sleep(ms) {
 // 	return new Promise(resolve => setTimeout(resolve, ms));
